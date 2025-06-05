@@ -52,8 +52,8 @@ function Pricing() {
           </h1>
         </div>
         <div className="text-center">
-          <h1 className="text-gray-100 font-bold">Choose a plan</h1>
-          <div className="flex items-center gap-2 text-gray-50">
+          <h1 className="text-gray-100 font-bold py-2">Choose a plan</h1>
+          <div className="flex items-center justify-center gap-3 text-gray-50">
             <span className="text-xs">Billed monthly</span>
             <button
               onClick={() => setIsAnnual(!isAnnual)}
